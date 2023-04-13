@@ -2,44 +2,55 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Arial';
+	
 }
 #leftside{
 	position: relative;
-	padding-left : 50px;
 	width: 700px;
-    
+    margin-left: 80px;
 }
 div.btn{
 	position: relative;
-	margin-left: 530px;
-	top: -90px;
+	margin-left: 420px;
+	top: -115px;
 	font-family: Arial;
 	font-weight: bold;
 	color: black;
-	letter-spacing: 0.5;
 	
+	letter-spacing: 0.2px;
 } 
+.btn .signup{
+	border: 3px solid;
+    color: white;
+    border-color: black;
+    background-color: black;
+    padding: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .hungry{
-	 font-size: 50px;
-	 letter-spacing: 1px;
-	 margin-top: -35px;
+	font-size: 38px;
+    letter-spacing: 1px;
+    margin-top: -35px;
+    opacity: 0.8;
 }
 .senten{
-	font-size: 25px;
-	 letter-spacing: 0px;
-	 opacity: 0.5;
-	 margin-top: -25px;
-	 font-family: Lucida Sans Unicode;
+	font-size: 19px;
+    letter-spacing: 0.9;
+    opacity: 0.5;
+    margin-top: -13px;
+    font-family: sans-serif;
 	  
 }
 .location{
 	height: 50px;
-	width: 510px;
-	padding-left:20px;
-	font-size: 21px;
- 	font-family: Lucida Sans Unicode;
- 	outline: none;
+    width: 420px;
+    margin-top: 21px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Lucida Sans Unicode;
+    outline: none;
 }
 
 .Food{
@@ -52,12 +63,14 @@ div.btn{
     background-color: #fc8019;
     font-family: Arial;
     color: white;
-    margin-top: -4px;
+    top: -4px;
+    padding: 19px;
   
 }
 .text-line{
-	
 	opacity: 0.3;
+    font-size: 14px;
+    font-weight: 700;
 }
 li {
     text-align: -webkit-match-parent;
@@ -65,7 +78,7 @@ li {
 .place-list{
 	
 	font-weight: 600;
-    font-size: 16px;
+        font-size: 15px;
     margin-right: 8px;
     color: #686b78;
     line-height: 1.5;
@@ -75,7 +88,12 @@ li {
 .place{
 	display: inline-block;
     padding: 0;
+    opacity: 0.9;
     
+}
+.span-clr{
+	opacity: 0.7;
+	    font-size: 15px;
 }
 .unorder-list{
 	width: 570px;
@@ -85,7 +103,7 @@ li {
 	}
 div.rightside{
 	position: absolute;
-	padding: 9px;
+
     left: calc(50% + 80px);
     right: 0;
     height: 58%;
@@ -134,12 +152,12 @@ div.rightside{
 	margin-bottom: 42px;
 } 
 .div_01{
-	font-size: 20px;
+	font-size: 18px;
     font-weight: 600;
     margin-top: 0;
 }
 .div_02{
-	font-size: 15px;
+	font-size: 14px;
     width: 260px;
     margin-top: 10px;
     color: #e0cbc1;
@@ -165,8 +183,9 @@ div.rightside{
     font-weight: 600;
     width: 300px;
     line-height: 1;
-    letter-spacing: -.45px;
-    opacity: 0.8;
+    letter-spacing: -.95px;
+    opacity: 0.9;
+    -webkit-tap-highlight-color: transparent;
    
 }
 .bottom_up_002{
@@ -212,17 +231,17 @@ div.rightside{
     
 }
 .bottom_subdiv_heading{
-	color: gray;
+	color:#6c6a6a;
     font-size: 15px;
     font-weight: 600;
-    text-align: center;
+    padding-left: 75px;
 }
 .bottom{
 	    margin: 0;
     padding: 0;
     height: 100%;
     font-weight: 300;
-    background: #282c3f;
+    background: black;
 }
 .bottom_subdiv{
     display: flex;
@@ -233,5 +252,21 @@ div.rightside{
     padding-top: 80px;
     }
 .bottom_subdiv_ul{
-    text-align: left;
-    }
+   padding-left:75px;
+   list-style: none;
+   }
+   .heading_content{
+   padding-top: 19px;
+   }
+  .bottom_heading_01{
+      margin-left: 150px;
+    cursor: pointer;
+    height: 65px;
+  } 
+  .bottom_heading_02{
+      margin-left: 150px;
+    cursor: pointer;
+    height: 65px;
+    top: 10px;
+    margin-top: 30px;
+  } 

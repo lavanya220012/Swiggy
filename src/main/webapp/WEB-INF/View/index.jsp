@@ -10,13 +10,13 @@
 <link rel="stylesheet" type="text/css" href="/css/index.css" />
 </head>
 <body>
+	<div class = "container">
 	<div class="up-side">
 		<div id="leftside">
-			<img src="/images/simage.png" class="image" height="170px">
+			<img src="/images/simage.png" class="image" height="200px">
 			<div class="btn">
-				<a class="login-btn">Login</a>&nbsp; &nbsp; <a class="signup"
-					style="border: 7px solid; color: white; border-color: black; background-color: black;">Sign
-					up</a>
+				<a class="login-btn">Login</a>&nbsp; &nbsp; &nbsp; 
+				<a class="signup">Sign up</a>
 				<!-- <input type="button" class="login-btn" value="Login">
 				<input type="button" class="signup" value="Sign Up"> -->
 			</div>
@@ -28,21 +28,21 @@
 					class="location" /><span class="Food">Find Food</span>
 			</div>
 			<br>
-			<h3 class="text-line">POPULAR CITIES IN INDIA</h3>
+			<p class="text-line">POPULAR CITIES IN INDIA</p>
 			<ul class="unorder-list">
 				<li class="place"><a class="place-list">Ahmedabad</a></li>
-				<li class="place"><a class="place-list">Bangalore</a></li>
+				<li class="place"><a class="place-list"><span class="span-clr">Bangalore</span></a></li>
 				<li class="place"><a class="place-list">Chennai</a></li>
-				<li class="place"><a class="place-list">Delhi</a></li>
+				<li class="place"><a class="place-list"><span class="span-clr">Delhi</span></a></li>
 				<li class="place"><a class="place-list">Gurgaon</a></li>
-				<li class="place"><a class="place-list">Hyderabad</a></li>
+				<li class="place"><a class="place-list"><span class="span-clr">Hyderabad</span></a></li>
 				<li class="place"><a class="place-list">Kolkata</a></li>
-				<li class="place"><a class="place-list">Mumbai</a></li>
+				<li class="place"><a class="place-list"><span class="span-clr">Mumbai</span></a></li>
 				<li class="place"><a class="place-list">Pune</a></li>
-				<li class="place"><a class="place-list">Tumkur</a></li>
+				<li class="place"><a class="place-list"><span class="span-clr">Tumkur</span></a></li>
 				<li class="place"><a class="place-list">& more.</a></li>
 			</ul>
-			<br> <br> <br>
+		
 		</div>
 		<div class="rightside">
 			<img src="/images/Lunch1_vlksgq.webp" width="600px" height="700px"
@@ -104,6 +104,9 @@
 						<li class="heading_content"><a>Careers</a></li>
 						<li class="heading_content"><a>Swiggy Blog</a></li>
 						<li class="heading_content"><a>Swiggy One</a></li>
+						<li class="heading_content"><a>Swiggy Corporate</a></li>
+						<li class="heading_content"><a>Swiggy Instamart</a></li>
+						<li class="heading_content"><a>Swiggy Genie</a></li>
 					</ul>
 				</div>
 				<div class="bottom_subdiv_001">
@@ -122,15 +125,19 @@
 						<li class="heading_content"><a>Privacy Policy</a></li>
 						<li class="heading_content"><a>Cooking Policy</a></li>
 						<li class="heading_content"><a>Offer Terms</a></li>
+						<li class="heading_content"><a>Phishing & Fraud</a></li>
+						<li class="heading_content"><a>Corporate - Swiggy Money Codes Terms and Conditions</a></li>
+						<li class="heading_content"><a>Corporate - Swiggy Discount Voucher Terms and Conditions</a></li>
 					</ul>
 					</div>
 				<div>
-				<a class = "bottom_heading"><img src="/images/iOS_ajgrty.webp"></a>
-				<a class = "bottom_heading"><img src="/images/play_ip0jfp.webp"></a>
+				<a><img class = "bottom_heading_01"  src="/images/icon-AppStore_lg30tv.png"></a>
+				<a><img class = "bottom_heading_02" src="/images/icon-GooglePlay_1_zixjxl.webp"></a>
 				</div>
 			</div>
 		</div>
+		<hr>
 	</div>
-
+	</div>
 </body>
 </html>
