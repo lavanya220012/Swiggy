@@ -39,6 +39,7 @@
 				<li class="place"><a class="place-list">Kolkata</a></li>
 				<li class="place"><a class="place-list">Mumbai</a></li>
 				<li class="place"><a class="place-list">Pune</a></li>
+				<li class="place"><a class="place-list">Tumkur</a></li>
 				<li class="place"><a class="place-list">& more.</a></li>
 			</ul>
 			<br> <br> <br>
